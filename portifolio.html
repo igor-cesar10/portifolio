@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css.css">
+    <title>Igor Cesar</title>
+</head>
+<body>
+
+        <!-- Criei um container para não precisar colocar estilo no body  -->
+
+    <div class="container">
+
+        <!-- Cabecalho com os links que se conectam com as sections -->
+
+        <div class="cabecalho">
+            <div class="cabecalho-com-itens">
+                <div class="links-esquerda">
+                    <a href="#sobremim">Sobre mim - Igor Cesar</a>
+                </div>
+                <div class="links-direita">
+                    <a href="#formacao">Formação</a>
+                    <a href="#trabalhos">Trabalhos</a>
+                    <a href="#contato">Contato</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Dividi a sessão sobre mim em duas, para poder utilizar o display felex e organizar. Usei essa mes técnica em outras partes do código -->
+
+        <section id="sobremim">
+            <div class="itens-esquerda">
+                <img src="./foto/Foto - Igor.png" alt="Foto de perfil do Igor">
+            </div>
+            <div class="itens-direita">
+                <h1 class="titulo-sobremim">Sobre mim</h1>
+                <div class="box-sobremim box-padrao1">
+                    <p class="texto-sobremim texto-padrao"> 
+                        Sou um profissional de TI apaixonado por tecnologia e inovação.
+                         Com uma abordagem extremamente responsável e dedicada, 
+                         busco sempre entregar resultados de alta qualidade em tudo o que
+                          faço. Minha dedicação e comprometimento me permitem superar
+                           desafios e alcançar objetivos com eficiência e precisão.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Nas sessões eu utilizei section invés de div, pois eu queria conectar a ID no link a -->
+
+
+        <!-- Sessão que fica a informação da formação, -->
+
+        <section id="formacao">
+            <h1 class="titulo-formacao titulo-padrao">Formação</h1>
+            <div class="box-formacao box-padrao">
+                <p class="texto-formacao texto-padrao"> 
+                   Graduando em Análise e Desenvolvimento de Sistemas, com experiência em sistemas de saúde pública, incluindo:</br> 
+                CNES (Cadastro Nacional de Estabelecimentos de Saúde), e-SUS (Sistema de Informação em Saúde), 
+                BPA (Boletim de Produção Ambulatorial), SIPNI, Hórus BNAFAR, MySQL. Essa formação e experiência me permitem desenvolver soluções 
+                tecnológicas inovadoras e eficientes para a área da saúde, com foco em melhorar a gestão e o atendimento em saúde pública.
+                </p>
+            </div>
+        </section>
+
+        <!-- Sessão que fica a informação do trabalho -->
+
+        <section id="trabalhos">
+            <h1 class="titulo-trabalhos titulo-padrao">Trabalhos</h1>
+            <div class="box-trabalhos box-padrao">
+                <p class="texto-trabalhos texto-padrao"> 
+                ° Modelagem de Bancos de Dados: Desenvolvimento de modelos de dados eficientes e escaláveis para armazenamento e gerenciamento de informações.</br>
+                ° Power BI: Criação de relatórios e dashboards interativos para visualização de dados e tomada de decisões.</br>
+                ° Faturamento: Implementação de soluções para gerenciamento de faturamento, incluindo automação de processos e análise de dados.</br>
+                ° E-SUS: Desenvolvimento de soluções para integração com o sistema e-SUS, garantindo a coleta e análise de dados de saúde de forma eficiente.
+                </p>
+            </div>
+        </section>
+
+        <!-- Parte do código com os campos do formulário -->
+
+        <section id="contato">
+            <h1 class="titulo-contato titulo-padrao">Contato</h1>
+            <div class="box-contato">
+                <form action="#" method="post" class="formulario-inputs">
+                    <label for="nome">Nome Completo:</label>
+                    <input type="text" id="nome" name="nome" placeholder="Nome completo...">
+
+                    <label for="email">Email de contato:</label>
+                    <input type="email" id="email" name="email" placeholder="Email...">
+
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea placeholder="Mensagem..."></textarea>
+
+                    <div class="box-button">
+                        <button type="submit">Enviar</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <!-- Rodapé da página -->
+        
+        </br></br></br></br></br>
+
+        <footer class="rodape">
+            <div class="box-creditos">
+                <span class="texto-creditos">Criado por Igor Cesar</span>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
